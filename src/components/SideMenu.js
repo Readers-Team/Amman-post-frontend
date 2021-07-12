@@ -5,10 +5,16 @@ import MenuItem from "./MenuItem";
 
 export const menuItems = [
   {
+    name: "Main Page",
+    exact: true,
+    to: "/",
+    iconClassName: "bi bi-house",
+},
+  {
     name: "Political",
     exact: true,
     to: "/political",
-    iconClassName: "bi bi-flag-fill",
+    iconClassName: "bi bi-flag",
 },
 {
     name: "Arts",
@@ -32,7 +38,7 @@ export const menuItems = [
     name: "Business",
     exact: true,
     to: "/business",
-    iconClassName: "bi bi-music-note-list",
+    iconClassName: "bi bi-briefcase",
 },
 {
     name: "Crime",
@@ -44,7 +50,7 @@ export const menuItems = [
     name: "Health",
     exact: true,
     to: "/health",
-    iconClassName: "bi bi-music-note-list",
+    iconClassName: "bi bi-bookmark-heart",
 },
 {
     name: "Celebrity",
@@ -57,9 +63,17 @@ export const menuItems = [
     exact: true,
     to: "/weather",
     iconClassName: "bi bi-cloud-drizzle",
+},
+{
+  name: "About Us",
+  exact: true,
+  to: "/aboutus",
+  iconClassName: "bi bi-people",
 }
+
   
   ];
+
 
 const SideMenu = (props) => {
   const [inactive, setInactive] = useState(false);
@@ -108,15 +122,15 @@ const SideMenu = (props) => {
           )}
         </div>
       </div>
-
+{/* 
       <div className="search-controller">
         <button className="search-btn">
           <i class="bi bi-search"></i>
         </button>
 
         <input type="text" placeholder="search" />
-      </div>
-
+      </div> */}
+<br/>
       <div className="divider"></div>
 
       <div className="main-menu">
@@ -140,14 +154,14 @@ const SideMenu = (props) => {
       </div>
 
       <div className="side-menu-footer">
-                <li>
+                {/* <li>
                     <a className="menu-item">
                         <div className="menu-icon">
                             <i class="bi bi-plus-circle-fill"></i>
                         </div>
                         <span>Add news</span>
                     </a>
-                </li>
+                </li> */}
 
 
        </div>

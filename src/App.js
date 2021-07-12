@@ -21,7 +21,6 @@ function App() {
       <Router>
         <SideMenu
           onCollapse={(inactive) => {
-            // console.log(inactive);
             setInactive(inactive);
           }}
         />
@@ -56,6 +55,9 @@ function App() {
                <Celebrity/>
               </Route>
               <Route  exact path="/weather">
+               <Weather/>
+              </Route>
+              <Route  exact path="/aboutus">
                <Weather/>
               </Route>
             
