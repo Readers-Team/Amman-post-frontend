@@ -31,6 +31,9 @@ function App() {
               <Route  exact path="/">
                <News  />
               </Route>
+              <Route  exact path="/aboutus">
+               <Aboutus  />
+              </Route>
               <Route  exact path="/political">
                <Political/>
               </Route>
@@ -58,9 +61,9 @@ function App() {
               <Route  exact path="/weather">
                <Weather/>
               </Route>
-              <Route  exact path="/aboutus">
+              {/* <Route  exact path="/aboutus">
                <Aboutus/>
-              </Route>
+              </Route> */}
             
         </div>
       </Router>
