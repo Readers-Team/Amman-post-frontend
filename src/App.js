@@ -10,6 +10,7 @@ import Crime from "./components/Crime"
 import Health from "./components/Health"
 import Celebrity from "./components/Celebrity"
 import Weather from "./components/Weather"
+import Aboutus from "./components/Aboutus"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useState } from "react";
 
@@ -58,7 +59,7 @@ function App() {
                <Weather/>
               </Route>
               <Route  exact path="/aboutus">
-               <Weather/>
+               <Aboutus/>
               </Route>
             
         </div>
