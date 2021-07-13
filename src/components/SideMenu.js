@@ -10,6 +10,12 @@ export const menuItems = [
     to: "/",
     iconClassName: "bi bi-house",
 },
+{
+  name: "About Us",
+  exact: true,
+  to: "/aboutus",
+  iconClassName: "bi bi-people",
+},
   {
     name: "Political",
     exact: true,
@@ -75,7 +81,15 @@ export const menuItems = [
   exact: true,
   to: "/aboutus",
   iconClassName: "bi bi-people",
+
 }
+// ,
+// {
+//   name: "About Us",
+//   exact: true,
+//   to: "/aboutus",
+//   iconClassName: "bi bi-people",
+// }
 
   
   ];

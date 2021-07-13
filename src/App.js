@@ -32,6 +32,9 @@ function App() {
               <Route  exact path="/">
                <News  />
               </Route>
+              <Route  exact path="/aboutus">
+               <Aboutus  />
+              </Route>
               <Route  exact path="/political">
                <Political/>
               </Route>
@@ -62,9 +65,16 @@ function App() {
               <Route  exact path="/weather">
                <Weather/>
               </Route>
+
               <Route  exact path="/community">
                <Community/>
               </Route>
+
+              {/* <Route  exact path="/aboutus">
+               <Aboutus/>
+              </Route> */}
+            
+
         </div>
       </Router>
     </div>
