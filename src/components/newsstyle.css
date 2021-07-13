@@ -1,0 +1,124 @@
+
+/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,700); */
+.CardColumns{
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(231, 221, 192);
+    box-shadow:2px 3px 4px  rgba(172, 144, 23, 0.863) ;
+    
+}
+
+.title{
+    font-size: 30px;
+    /* font-weight: 200; */
+    font-family: 'Gill Sans' , sans-serif;
+    padding: 8px;
+
+}
+
+.img{
+    border-radius: 5px;
+    box-shadow: 2px 3px 4px 5px rgba(46, 46, 44, 0.863);
+    width: 100%;
+    height: 25rem;
+}
+
+.auther{
+    float: right;
+    font-family: fantasy;
+   
+    text-shadow: 2px 3px 4px rgb(85, 84, 46);
+    font-size: 16px;
+}
+.desc{
+    font-size:20px;
+    padding-left: 15px;
+    font-weight: 100;
+    font-family: Blippo ;
+    
+}
+.published{
+    font-size: 15px;
+    padding-left: 12px;
+    font-family: cursive;
+}
+.published span{
+    
+    font-family: Blippo ;
+}
+
+#text{
+  
+    font-size:4em;
+    font-weight:bold;
+    background-color: rgba(172, 144, 23, 0.863);
+      background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(255, 255, 255, 0.5) 5%, rgba(255, 255, 255, 0.5) 10%, transparent 10%, transparent 100%);
+      background-size: 200% 100%;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    animation:shine 2s linear infinite;
+  }
+  @keyframes shine{
+    100%{
+      background-position: -120% 0;
+    }
+}
+#textmain{
+  
+    font-size:2.4em;
+    font-weight:bold;
+    background-color: rgba(198, 174, 38, 0.863);
+    background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(36, 36, 36, 0.5) 5%, rgba(72, 72, 72, 0.5) 10%, transparent 10%, transparent 100%);
+    background-size: 200% 100%;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation:shine 2s linear infinite;
+    padding-left: 75px;
+    margin-top: -14px;
+  }
+  @keyframes shine{
+    100%{
+      background-position: -120% 0;
+    }
+}
+
+.imgmain{
+    width: 100%;
+    height: 30rem;
+    border-radius: 5%;
+    opacity: .5;
+    box-shadow: 3px 4px 5px 5px floralwhite;
+    
+}
+.main{
+    color: bisque;
+    font-family:'Gill Sans' , sans-serif;
+    font-size: 20px;
+}
+.footer{
+    margin: 5px;
+    font-size: 25px;
+    color: bisque;
+}
+.bgfooter{
+    background-color: rgba(198, 174, 38, 0.863);
+    
+}
+
+.cardapi img{
+    height: 250px;
+}
+.cardapi p{
+    height: 110px;
+}
+.maindisc{
+    color: cornsilk;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.formcontact{
+    color: cornsilk;
+}
