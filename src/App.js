@@ -11,6 +11,7 @@ import Health from "./components/Health"
 import Celebrity from "./components/Celebrity"
 import Weather from "./components/Weather"
 import Aboutus from "./components/Aboutus"
+import Community from "./components/Community"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useState } from "react";
 
@@ -55,13 +56,15 @@ function App() {
               <Route  exact path="/celebrity">
                <Celebrity/>
               </Route>
-              <Route  exact path="/weather">
-               <Weather/>
-              </Route>
               <Route  exact path="/aboutus">
                <Aboutus/>
               </Route>
-            
+              <Route  exact path="/weather">
+               <Weather/>
+              </Route>
+              <Route  exact path="/community">
+               <Community/>
+              </Route>
         </div>
       </Router>
     </div>

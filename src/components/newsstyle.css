@@ -6,7 +6,7 @@
     padding: 10px;
     border-radius: 5px;
     background-color: rgb(231, 221, 192);
-    box-shadow:2px 3px 4px  rgba(172, 144, 23, 0.863) ;
+    box-shadow:2px 3px 4px  rgba(0, 0, 0, 0.863) ;
     
 }
 
@@ -28,8 +28,7 @@
 .auther{
     float: right;
     font-family: fantasy;
-   
-    text-shadow: 2px 3px 4px rgb(85, 84, 46);
+    text-shadow: 2px 3px 4px #af4141;
     font-size: 16px;
 }
 .desc{
@@ -53,8 +52,8 @@
   
     font-size:4em;
     font-weight:bold;
-    background-color: rgba(172, 144, 23, 0.863);
-      background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(255, 255, 255, 0.5) 5%, rgba(255, 255, 255, 0.5) 10%, transparent 10%, transparent 100%);
+    background-color: #af4141;
+      background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0.5) 10%, transparent 10%, transparent 100%);
       background-size: 200% 100%;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -67,16 +66,16 @@
 }
 #textmain{
   
-    font-size:2.4em;
+    font-size:3em;
     font-weight:bold;
-    background-color: rgba(198, 174, 38, 0.863);
-    background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(36, 36, 36, 0.5) 5%, rgba(72, 72, 72, 0.5) 10%, transparent 10%, transparent 100%);
+    background-color: #af4141;
+      background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0.5) 10%, transparent 10%, transparent 100%);
     background-size: 200% 100%;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     animation:shine 2s linear infinite;
     padding-left: 75px;
-    margin-top: -14px;
+    margin-bottom: -100px;
   }
   @keyframes shine{
     100%{
@@ -87,23 +86,23 @@
 .imgmain{
     width: 100%;
     height: 30rem;
-    border-radius: 5%;
-    opacity: .5;
+    /* border-radius: 25%; */
+    /* opacity: .7; */
     box-shadow: 3px 4px 5px 5px floralwhite;
     
 }
 .main{
-    color: bisque;
+    color: #af4141;
     font-family:'Gill Sans' , sans-serif;
     font-size: 20px;
 }
 .footer{
     margin: 5px;
     font-size: 25px;
-    color: bisque;
+    color: black;
 }
 .bgfooter{
-    background-color: rgba(198, 174, 38, 0.863);
+    background-color:#af4141;
     
 }
 
@@ -114,11 +113,16 @@
     height: 110px;
 }
 .maindisc{
-    color: cornsilk;
+    color: black;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: 'Otomanopee One', sans-serif;
     text-align: center;
 }
 .formcontact{
-    color: cornsilk;
+    color: black;
+}
+
+.vision{
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 40px;
 }

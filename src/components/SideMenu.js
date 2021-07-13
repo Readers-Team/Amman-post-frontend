@@ -65,6 +65,12 @@ export const menuItems = [
     iconClassName: "bi bi-cloud-drizzle",
 },
 {
+    name: "Community",
+    exact: true,
+    to: "/community",
+    iconClassName: "bi bi-cloud-drizzle",
+},
+{
   name: "About Us",
   exact: true,
   to: "/aboutus",
@@ -153,18 +159,7 @@ const SideMenu = (props) => {
         </ul>
       </div>
 
-      <div className="side-menu-footer">
-                {/* <li>
-                    <a className="menu-item">
-                        <div className="menu-icon">
-                            <i class="bi bi-plus-circle-fill"></i>
-                        </div>
-                        <span>Add news</span>
-                    </a>
-                </li> */}
-
-
-       </div>
+    
     </div>
   );
 };
