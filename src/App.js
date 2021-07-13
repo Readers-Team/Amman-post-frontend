@@ -59,9 +59,9 @@ function App() {
               <Route  exact path="/celebrity">
                <Celebrity/>
               </Route>
-              <Route  exact path="/aboutus">
+              {/* <Route  exact path="/aboutus">
                <Aboutus/>
-              </Route>
+              </Route> */}
               <Route  exact path="/weather">
                <Weather/>
               </Route>

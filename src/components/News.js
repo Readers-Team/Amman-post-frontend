@@ -94,9 +94,9 @@ export class News extends Component {
             <>
 
                 {this.state.functionn}
-                <header class="w3-container w3-large w3-padding-24">
+                {/* <header class="w3-container w3-large w3-padding-24">
                     <button class="w3-right w3-button w3-white">LOGIN</button>
-                </header>
+                </header> */}
                 <div className="mySlides w3-display-container w3-center">
                     <img className="imgmain" src="https://businessguideafrica.com/wp-content/uploads/2021/06/36763b006fe3cf9f8c632b1745e4b037.jpg" />
                     <div className="w3-display-right w3-container w3-text-black w3-padding-32 w3-hide-smalls  ">
