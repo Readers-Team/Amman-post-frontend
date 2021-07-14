@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 const Login = () => {
   const { loginWithRedirect } = useAuth0();
  
-  return<> <button onClick={() => loginWithRedirect()} className="w3-button w3-black w3-section w3-topright" type="submit">Log In
+  return<> <button onClick={() => loginWithRedirect()} className="w3-button w3-sand w3-section w3-topright" type="submit">Log In
    </button>
    <div id="text" style={{textAlign:'center'}} >Community Plogs 🤞 🎗️</div>
    </>

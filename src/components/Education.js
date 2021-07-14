@@ -37,6 +37,7 @@ export class Education extends Component {
                     this.state.PoliticalArr.map((item) => {
                         return (
                             <CardColumns className="CardColumns">
+                                <div className='cardpg'>
                                 <Card>
                                     <Card.Img className="img" variant="top" src={item.urlToImage} />
                                     <Card.Body>
@@ -66,6 +67,7 @@ export class Education extends Component {
                                         <br />
                                     </Card.Body>
                                 </Card>
+                               </div>
                             </CardColumns>
 
 

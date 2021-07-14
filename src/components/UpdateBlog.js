@@ -30,9 +30,9 @@ class UpdateBlog extends Component {
                     <Modal.Body>
                         <div className="w3-row w3-padding-32 formcontact">
 
-                            <div className="w3-col m12">
+                            <div className="w3-col m12 updatcolor">
                                 <form action="/action_page.php" target="_blank" onSubmit={(e) => { this.createBook(e) }}>
-                                    <div className="w3-row-padding" style={{ margin: "0 -16px 8px -16px" }}>
+                                    <div className="w3-row-padding " style={{ margin: "0 -16px 8px -16px" }}>
                                         <div className="w3-half">
                                             <label>Update Title of plog </label>
                                             <input defaultValue={this.props.nameartical} onChange={(e) => { this.props.getName(e) }} className="w3-input w3-border" type="text" placeholder="Titel of Blog" required name="titel" />

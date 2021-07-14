@@ -47,6 +47,7 @@ export class AllBlogs extends React.Component {
                             {item.blogs.map(val => {
                                 return (
                                     <CardColumns className=" CardColumns">
+                                        <div className='cardpg'>
                                         <Card >
                                             <Card.Body   >
                                                 <br />
@@ -64,11 +65,9 @@ export class AllBlogs extends React.Component {
                                                     {val.description}
                                                 </Card.Text>
                                                 <br />
-
-
-
                                             </Card.Body>
                                         </Card>
+                                        </div>
                                     </CardColumns>
 
 
