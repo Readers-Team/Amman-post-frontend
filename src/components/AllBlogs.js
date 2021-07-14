@@ -23,7 +23,7 @@ export class AllBlogs extends React.Component {
 
     }
     componentDidMount = async () => {
-        let axiosData = await axios.get(`http://localhost:4500/allblogs`)
+        let axiosData = await axios.get(`${process.env.REACT_APP_URL}/allblogs`)
         this.setState({
             resultsBook: axiosData.data
         })
