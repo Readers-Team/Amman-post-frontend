@@ -96,7 +96,7 @@ class MyFavoriteBooks extends React.Component {
       <>
         {this.state.showbutton &&
         <>
-          <button className="w3-button w3-black w3-section w3-topleft" onClick={(e) => { this.buttonFun(e) }} type="submit">Add New Post</button>
+          <button className="w3-button w3-sand w3-section w3-topleft" onClick={(e) => { this.buttonFun(e) }} type="submit">Add New Post</button>
           <div id="text" style={{textAlign:'center'}} >Community Plogs 🤞 🎗️</div>
           <div className="divider"></div>
           <div className="divider"></div>         
@@ -122,7 +122,7 @@ class MyFavoriteBooks extends React.Component {
                     </div>
                   </div>
                   <input className="w3-input w3-border" style={{ height: '100px' }} type="text" placeholder="What is in your mind...." onChange={(e) => { this.getDescription(e) }} required name="discription" />
-                  <button className="w3-button w3-black w3-section w3-right" type="submit">Post</button>
+                  <button className="w3-button w3-sand w3-section w3-right" type="submit">Post</button>
                 </form>
               </div>
             </div>
@@ -133,6 +133,7 @@ class MyFavoriteBooks extends React.Component {
           this.state.resultsBook && this.state.resultsBook.map((item, idx) => {
             return (
               <CardColumns className="CardColumns">
+                <div className='cardpg'>
                 <Card key={idx} id={idx}>
                   <Card.Body>
                     <br/>
@@ -161,6 +162,7 @@ class MyFavoriteBooks extends React.Component {
                     />
                   </Card.Body>
                 </Card>
+                </div>
               </CardColumns>
 
 

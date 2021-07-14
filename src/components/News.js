@@ -98,7 +98,7 @@ export class News extends Component {
                     <button class="w3-right w3-button w3-white">LOGIN</button>
                 </header> */}
                 <div className="mySlides w3-display-container w3-center">
-                    <img className="imgmain" src="https://businessguideafrica.com/wp-content/uploads/2021/06/36763b006fe3cf9f8c632b1745e4b037.jpg" />
+                    <img className="imgmain" src="https://c1.wallpaperflare.com/preview/333/892/1015/article-background-broadsheet-business.jpg" />
                     <div className="w3-display-right w3-container w3-text-black w3-padding-32 w3-hide-smalls  ">
                         <h3 id="textmain">HAKI GARAYED</h3>
 

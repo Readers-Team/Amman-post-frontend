@@ -5,7 +5,7 @@
     margin: 15px;
     padding: 10px;
     border-radius: 5px;
-    background-color: #af41417e;
+    background-color: rgb(255, 229, 181);
     box-shadow:2px 3px 4px  rgba(0, 0, 0, 0.863) ;
     
 }
@@ -18,17 +18,23 @@
 
 }
 
+
 .img{
     border-radius: 5px;
     box-shadow: 2px 3px 4px 5px rgba(46, 46, 44, 0.863);
     width: 100%;
-    height: 25rem;
+    height: 30rem;
+}
+
+.cardpg{
+    width: 1000px;
+    box-shadow:  2px 3px 3px black;
 }
 
 .auther{
     float: right;
     font-family: fantasy;
-    text-shadow: 2px 3px 4px #af4141;
+    text-shadow: 2px 3px 4px #381c1c;
     font-size: 16px;
 }
 .desc{
@@ -52,8 +58,8 @@
   
     font-size:4em;
     font-weight:bold;
-    background-color: #af4141;
-      background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0.5) 10%, transparent 10%, transparent 100%);
+    background-color: #cc9405;
+      background-image: linear-gradient(-75deg, transparent 0, transparent 5%, #f7ce54 5%, #f8d25f 10%, transparent 10%, transparent 100%);
       background-size: 200% 100%;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -68,8 +74,8 @@
   
     font-size:3em;
     font-weight:bold;
-    background-color: #af4141;
-      background-image: linear-gradient(-75deg, transparent 0, transparent 5%, rgba(0, 0, 0, 0.5) 5%, rgba(0, 0, 0, 0.5) 10%, transparent 10%, transparent 100%);
+    background-color: #cc9405;
+      background-image: linear-gradient(-75deg, transparent 0, transparent 5%, #f7ce54 5%, #f8d25f 10%, transparent 10%, transparent 100%);
     background-size: 200% 100%;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -92,7 +98,7 @@
     
 }
 .main{
-    color: #af4141;
+    color: #cc9405;
     font-family:'Gill Sans' , sans-serif;
     font-size: 20px;
 }
@@ -102,24 +108,25 @@
     color: black;
 }
 .bgfooter{
-    background-color:#af4141;
+    background-color:#cc9405;
     
 }
 
 .cardapi img{
     height: 250px;
+    
 }
 .cardapi p{
     height: 110px;
 }
 .maindisc{
-    color: black;
+    color: rgb(255, 229, 181);
     font-size: 15px;
     font-family: 'Otomanopee One', sans-serif;
     text-align: center;
 }
 .formcontact{
-    color: black;
+    color: rgb(255, 229, 181);
 }
 
 .vision{
@@ -130,6 +137,6 @@
    border: 2px solid black;
 }
 
-/* .card{
-    background-color:#af4141;
-} */
+.updatcolor label{
+    color: black;
+}
