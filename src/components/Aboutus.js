@@ -11,9 +11,10 @@ export class Aboutus extends Component {
     render() {
         return (
             <>
+            <div id="text" style={{textAlign:'center'}} >Here We Are ... 🤞 🎗️</div>
                 <div id="cards_landscape_wrap-2">
-                    <div className="w3-container w3-content bordercard " style={{ maxWidth: '1000px' }}>
-                        <div className="w3-row-padding " style={{ margin: "0 -16px" }}>
+                    <div className="w3-container w3-content bordercard " >
+                        <div className="w3-row-padding " style={{ margin: "0 " }}>
                             <div className="w3-quarter w3-margin-bottom  card-flyer imge">
                                 <img src={samah} alt="New York" style={{ width: '100%' , height:'300px'}} className="w3-hover-opacity  image-box" />
                                 <div className="w3-container w3-white  text-box  " >

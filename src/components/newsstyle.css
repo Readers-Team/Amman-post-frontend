@@ -5,7 +5,7 @@
     margin: 15px;
     padding: 10px;
     border-radius: 5px;
-    background-color: rgb(231, 221, 192);
+    background-color: #af41417e;
     box-shadow:2px 3px 4px  rgba(0, 0, 0, 0.863) ;
     
 }
@@ -126,3 +126,10 @@
     font-family: 'Otomanopee One', sans-serif;
     font-size: 40px;
 }
+.imge{
+   border: 2px solid black;
+}
+
+/* .card{
+    background-color:#af4141;
+} */

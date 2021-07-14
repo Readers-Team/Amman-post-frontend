@@ -2,8 +2,8 @@
 
 import React from 'react';
 import axios from 'axios'
-import { Card } from 'react-bootstrap';
 import { withAuth0 } from '@auth0/auth0-react';
+import { Card, CardColumns } from 'react-bootstrap'
 
 
 
@@ -37,7 +37,48 @@ export class AllBlogs extends React.Component {
         console.log(this.state.resultsBook);
         return (
             <>
+
                 {this.state.resultsBook && this.state.resultsBook.map(item => {
+                    let emailLink = `https://www.${item.email}`
+                    return (
+                        <>
+                        <div className="divider"></div>
+                        <div className="divider"></div>
+                            {item.blogs.map(val => {
+                                return (
+                                    <CardColumns className=" CardColumns">
+                                        <Card >
+                                            <Card.Body   >
+                                                <br />
+                                                <Card.Title className="title" >{<a href={emailLink}>Email</a>}</Card.Title>
+                                                <br />
+                                                <Card.Text className="desc" >
+                                                    {val.author}
+                                                </Card.Text>
+                                                <br />
+                                                <Card.Text className="desc">
+                                                    {val.nameartical}
+                                                </Card.Text>
+                                                <br />
+                                                <Card.Text className="desc">
+                                                    {val.description}
+                                                </Card.Text>
+                                                <br />
+
+
+
+                                            </Card.Body>
+                                        </Card>
+                                    </CardColumns>
+
+
+                                )
+                            })}
+                        </>
+                    )
+
+                })}
+                {/* {this.state.resultsBook && this.state.resultsBook.map(item => {
                     let emailLink=`https://www.${item.email}`
                     return (
                         <>
@@ -63,7 +104,7 @@ export class AllBlogs extends React.Component {
                         </>
                     )
 
-                })}
+                })} */}
             </>
         )
     }

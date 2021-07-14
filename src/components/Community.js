@@ -12,8 +12,9 @@ export class Community extends Component {
       <>
         { this.props.auth0.isAuthenticated ?
                 <>
+                 <Logout/>
                 <Myblogs/>
-                <Logout/>
+                    
                 </> :
                 
                 <Login/>
