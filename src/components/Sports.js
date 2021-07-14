@@ -37,6 +37,7 @@ export class Sports extends Component {
                 {
                     this.state.PoliticalArr.map((item) => {
                         return (
+                            
                             <CardColumns className="CardColumns">
                                 <div className='cardpg'>
                                 <Card>

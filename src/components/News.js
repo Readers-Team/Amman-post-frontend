@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import { withAuth0 } from '@auth0/auth0-react';
+import Login from './Login';
+import Logout from './Logout';
 const axios = require('axios');
 export class News extends Component {
     constructor(props) {
@@ -94,9 +97,15 @@ export class News extends Component {
             <>
 
                 {this.state.functionn}
-                {/* <header class="w3-container w3-large w3-padding-24">
-                    <button class="w3-right w3-button w3-white">LOGIN</button>
-                </header> */}
+                { this.props.auth0.isAuthenticated ?
+                <>
+                 <Logout/>
+               
+                    
+                </> :
+                
+                <Login/>
+                    }
                 <div className="mySlides w3-display-container w3-center">
                     <img className="imgmain" src="https://c1.wallpaperflare.com/preview/333/892/1015/article-background-broadsheet-business.jpg" />
                     <div className="w3-display-right w3-container w3-text-black w3-padding-32 w3-hide-smalls  ">
@@ -248,6 +257,6 @@ export class News extends Component {
 
 }
 
-export default News
+export default withAuth0(News)
 
 
